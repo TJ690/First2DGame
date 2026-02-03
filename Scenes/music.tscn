@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://co4e4kgix5vrs"]
+
+[ext_resource type="AudioStream" uid="uid://c32u2jtv2sbgq" path="res://Assets/music/05. Vegetable Valley Hub copy.mp3" id="1_16ovt"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_16ovt")
+autoplay = true

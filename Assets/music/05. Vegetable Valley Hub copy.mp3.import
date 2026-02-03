@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c32u2jtv2sbgq"
+path="res://.godot/imported/05. Vegetable Valley Hub copy.mp3-dbafa7cd54b8a74d32ac26ae1ad46899.mp3str"
+
+[deps]
+
+source_file="res://Assets/music/05. Vegetable Valley Hub copy.mp3"
+dest_files=["res://.godot/imported/05. Vegetable Valley Hub copy.mp3-dbafa7cd54b8a74d32ac26ae1ad46899.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4
