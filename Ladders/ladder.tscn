@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://uvh7n0hxh0ti"]
+
+[ext_resource type="Texture2D" uid="uid://bd1ptwoxlujqb" path="res://Assets/sprites/world_tileset.png" id="1_w34vn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xtuac"]
+size = Vector2(16, 16)
+
+[node name="Ladder" type="Area2D"]
+collision_layer = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_xtuac")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_w34vn")
+region_enabled = true
+region_rect = Rect2(112, 48, 16, 16)

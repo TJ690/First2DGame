@@ -179,9 +179,21 @@ script = ExtResource("1_458qm")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -16)
 sprite_frames = SubResource("SpriteFrames_hq0di")
-animation = &"Jump"
-autoplay = "Idle"
+animation = &"run"
+frame_progress = 0.363619
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -10)
 shape = SubResource("CircleShape2D_uvfk2")
+
+[node name="LadderDetection" type="RayCast2D" parent="."]
+position = Vector2(-1.22246e-10, -17)
+rotation = 0.000667346
+target_position = Vector2(0, 10)
+collision_mask = 4
+collide_with_areas = true
+collide_with_bodies = false
+
+[node name="LadderDebug" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
